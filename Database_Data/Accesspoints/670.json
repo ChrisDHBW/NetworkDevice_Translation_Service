@@ -1,0 +1,208 @@
+{
+    "Version": 670,
+    "Details": {
+        "Type": "Uncovered",
+        "Usage": "Outdoor",
+        "Max-SSIDS-per-Radio": 16,
+        "Max-Client-Device-Per-Radio": 512,
+        "Wireless-Standard": "802.11ax",
+        "Radio-Type": "Tri",
+        "Client-Density-Classification": "High",
+        "TPM-Modul": true,
+        "GPS-Modul": true,
+        "Wireless-Security-Protocols": {
+            "WPA3-PSK": true,
+            "WPA3-Enterprise": true,
+            "WPA2-PSK": true,
+            "WPA2-Enterprise": true,
+            "WPA2-MPSK": true
+        },
+        "Security-Protocols": {
+            "Radius": true
+        },
+        "Radios": {
+            "2.4GHz": true,
+            "2.4GHz-Max-SS": "2x2",
+            "5GHz": true,
+            "5GHz-Max-SS": "2x2",
+            "6GHz": true,
+            "6GHz-Max-SS": "2x2",
+            "Bluetooth": true,
+            "Zigbee": true
+        },
+        "Compatible-Operating-Systems": [
+            "AOS8",
+            "AOS10"
+        ]
+    },
+    "Models": [
+        {
+            "Identifier": "675",
+            "Antenna-Type": "Internal",
+            "PortAmount": 2,
+            "HasSpecialDownlinkPorts": false,
+            "Ports": {
+                "Uplink": [
+                    {
+                        "MAC-Sec-Capable-Port": false,
+                        "MAC-Sec-Max-Speed": 0,
+                        "Can-consume-PoE": true,
+                        "Can-provide-PoE": false,
+                        "PoE-Class": 4,
+                        "PoE-Delivery-Class": -1,
+                        "Type": "BaseT",
+                        "802.3az": true,
+                        "Speed": [
+                            100,
+                            1000,
+                            2500
+                        ]
+                    },
+                    {
+                        "MAC-Sec-Capable-Port": false,
+                        "MAC-Sec-Max-Speed": 0,
+                        "Can-consume-PoE": false,
+                        "Can-provide-PoE": false,
+                        "PoE-Class": -1,
+                        "PoE-Delivery-Class": -1,
+                        "Type": "SFP+",
+                        "802.3az": true,
+                        "Speed": [
+                            1000,
+                            10000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Can-Consume-PoE": true,
+                "Consume-Class": 4,
+                "Can-Deliver-PoE": false,
+                "Deliver-Class": -1
+            },
+            "Dimensions": {
+                "Height": 312,
+                "Width": 290,
+                "Depth": 288,
+                "Weight": 4000
+            },
+            "Environmental": {
+                "Min-Temp": -40,
+                "Max-Temp": 65
+            }
+        },
+        {
+            "Identifier": "677",
+            "Antenna-Type": "Directional",
+            "PortAmount": 2,
+            "HasSpecialDownlinkPorts": false,
+            "Ports": {
+                "Uplink": [
+                    {
+                        "MAC-Sec-Capable-Port": false,
+                        "MAC-Sec-Max-Speed": 0,
+                        "Can-consume-PoE": true,
+                        "Can-provide-PoE": false,
+                        "PoE-Class": 4,
+                        "PoE-Delivery-Class": -1,
+                        "Type": "BaseT",
+                        "802.3az": true,
+                        "Speed": [
+                            100,
+                            1000,
+                            2500
+                        ]
+                    },
+                    {
+                        "MAC-Sec-Capable-Port": false,
+                        "MAC-Sec-Max-Speed": 0,
+                        "Can-consume-PoE": false,
+                        "Can-provide-PoE": false,
+                        "PoE-Class": -1,
+                        "PoE-Delivery-Class": -1,
+                        "Type": "SFP+",
+                        "802.3az": true,
+                        "Speed": [
+                            1000,
+                            10000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Can-Consume-PoE": true,
+                "Consume-Class": 4,
+                "Can-Deliver-PoE": false,
+                "Deliver-Class": -1
+            },
+            "Dimensions": {
+                "Height": 171,
+                "Width": 290,
+                "Depth": 288,
+                "Weight": 3600
+            },
+            "Environmental": {
+                "Min-Temp": -40,
+                "Max-Temp": 65
+            }
+        },
+        {
+            "Identifier": "679",
+            "Antenna-Type": "Directional",
+            "PortAmount": 2,
+            "HasSpecialDownlinkPorts": false,
+            "Ports": {
+                "Uplink": [
+                    {
+                        "MAC-Sec-Capable-Port": false,
+                        "MAC-Sec-Max-Speed": 0,
+                        "Can-consume-PoE": true,
+                        "Can-provide-PoE": false,
+                        "PoE-Class": 4,
+                        "PoE-Delivery-Class": -1,
+                        "Type": "BaseT",
+                        "802.3az": true,
+                        "Speed": [
+                            100,
+                            1000,
+                            2500
+                        ]
+                    },
+                    {
+                        "MAC-Sec-Capable-Port": false,
+                        "MAC-Sec-Max-Speed": 0,
+                        "Can-consume-PoE": false,
+                        "Can-provide-PoE": false,
+                        "PoE-Class": -1,
+                        "PoE-Delivery-Class": -1,
+                        "Type": "SFP+",
+                        "802.3az": true,
+                        "Speed": [
+                            1000,
+                            10000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Can-Consume-PoE": true,
+                "Consume-Class": 4,
+                "Can-Deliver-PoE": false,
+                "Deliver-Class": -1
+            },
+            "Dimensions": {
+                "Height": 171,
+                "Width": 290,
+                "Depth": 288,
+                "Weight": 3800
+            },
+            "Environmental": {
+                "Min-Temp": -40,
+                "Max-Temp": 65
+            }
+        }
+    ]
+}

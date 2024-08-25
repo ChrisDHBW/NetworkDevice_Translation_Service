@@ -1,0 +1,139 @@
+{
+    "Version": 300,
+    "Details": {
+        "Type": "Campus",
+        "Usage": "Indoor",
+        "Max-SSIDS-per-Radio": 16,
+        "Max-Client-Device-Per-Radio": 256,
+        "Wireless-Standard": "802.11ac",
+        "Radio-Type": "Dual",
+        "Client-Density-Classification": "Low",
+        "TPM-Modul": true,
+        "GPS-Modul": false,
+        "Wireless-Security-Protocols": {
+            "WPA3-PSK": true,
+            "WPA3-Enterprise": true,
+            "WPA2-PSK": true,
+            "WPA2-Enterprise": true,
+            "WPA2-MPSK": true
+        },
+        "Security-Protocols": {
+            "Radius": true
+        },
+        "Radios": {
+            "2.4GHz": true,
+            "2.4GHz-Max-SS": "2x2",
+            "5GHz": true,
+            "5GHz-Max-SS": "2x2",
+            "6GHz": false,
+            "6GHz-Max-SS": "Not supported",
+            "Bluetooth": true,
+            "Zigbee": true
+        },
+        "Compatible-Operating-Systems": [
+            "AOS8",
+            "AOS10"
+        ]
+    },
+    "Models": [
+        {
+            "Identifier": "303",
+            "Antenna-Type": "Internal",
+            "PortAmount": 1,
+            "HasSpecialDownlinkPorts": false,
+            "Ports": {
+                "Uplink": [
+                    {
+                        "MAC-Sec-Capable-Port": false,
+                        "MAC-Sec-Max-Speed": 0,
+                        "Can-consume-PoE": true,
+                        "Can-provide-PoE": false,
+                        "PoE-Class": 3,
+                        "PoE-Delivery-Class": -1,
+                        "Type": "BaseT",
+                        "802.3az": true,
+                        "Speed": [
+                            100,
+                            100,
+                            1000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Can-Consume-PoE": true,
+                "Consume-Class": 3,
+                "Can-Deliver-PoE": false,
+                "Deliver-Class": -1
+            },
+            "Dimensions": {
+                "Height": 35,
+                "Width": 150,
+                "Depth": 150,
+                "Weight": 260
+            },
+            "Environmental": {
+                "Min-Temp": 0,
+                "Max-Temp": 40
+            }
+        },
+        {
+            "Identifier": "303P",
+            "Antenna-Type": "Internal",
+            "PortAmount": 2,
+            "HasSpecialDownlinkPorts": false,
+            "Ports": {
+                "Uplink": [
+                    {
+                        "MAC-Sec-Capable-Port": false,
+                        "MAC-Sec-Max-Speed": 0,
+                        "Can-consume-PoE": true,
+                        "Can-provide-PoE": false,
+                        "PoE-Class": 3,
+                        "PoE-Delivery-Class": -1,
+                        "Type": "BaseT",
+                        "802.3az": true,
+                        "Speed": [
+                            100,
+                            100,
+                            1000
+                        ]
+                    },
+                    {
+                        "MAC-Sec-Capable-Port": false,
+                        "MAC-Sec-Max-Speed": 0,
+                        "Can-consume-PoE": false,
+                        "Can-provide-PoE": false,
+                        "PoE-Class": -1,
+                        "PoE-Delivery-Class": -1,
+                        "Type": "BaseT",
+                        "802.3az": true,
+                        "Speed": [
+                            100,
+                            100,
+                            1000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Can-Consume-PoE": true,
+                "Consume-Class": 3,
+                "Can-Deliver-PoE": false,
+                "Deliver-Class": -1
+            },
+            "Dimensions": {
+                "Height": 35,
+                "Width": 150,
+                "Depth": 150,
+                "Weight": 260
+            },
+            "Environmental": {
+                "Min-Temp": 0,
+                "Max-Temp": 40
+            }
+        }
+    ]
+}
