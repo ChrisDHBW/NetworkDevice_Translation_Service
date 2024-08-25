@@ -1,0 +1,143 @@
+{
+    "Version": 9000,
+    "Details": {
+        "Type": "Branch",
+        "TPM-Modul": true,
+        "Security-Protocols": {
+            "Radius": true,
+            "Tacacs+": true
+        },
+        "Compatible-Operating-Systems": [
+            "AOS8",
+            "AOS10"
+        ]
+    },
+    "Models": [
+        {
+            "Identifier": "9004",
+            "Type": "Fixed",
+            "Number-Of-PowerSupplies": 1,
+            "Number-Of-FansTrays": 0,
+            "Usage-Classification": "Branch",
+            "Density-Classification": "Small",
+            "PortAmount": 4,
+            "Has-Licence-based-Capacities": false,
+            "Scalability": {
+                "AOS8": {
+                    "AP-Capacity": 32,
+                    "Client-Capacity": 2048,
+                    "Max-Cluster-Size": 4
+                },
+                "AOS10": {
+                    "AP-Capacity": 128,
+                    "Client-Capacity": 2048,
+                    "Max-Cluster-Size": 4
+                }
+            },
+            "HasDedicatedManagementInterface": false,
+            "Ports": [
+                {
+                    "Amount": 4,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "BaseT",
+                    "802.3az": true,
+                    "Speed": [
+                        10,
+                        100,
+                        1000
+                    ]
+                }
+            ],
+            "PoE": {
+                "Enabled": false,
+                "Can-Consume-PoE": false,
+                "Consume-Class": -1,
+                "Can-Deliver-PoE": false,
+                "Deliver-Class": -1
+            },
+            "Dimensions": {
+                "Height-In-RackUnit:": 1,
+                "Height": 38,
+                "Width": 199,
+                "Depth": 153,
+                "Weight": 1143
+            }
+        },
+        {
+            "Identifier": "9012",
+            "Type": "Fixed",
+            "Number-Of-PowerSupplies": 1,
+            "Number-Of-FansTrays": 0,
+            "Usage-Classification": "Branch",
+            "Density-Classification": "Medium",
+            "PortAmount": 12,
+            "Has-Licence-based-Capacities": false,
+            "Scalability": {
+                "AOS8": {
+                    "AP-Capacity": 32,
+                    "Client-Capacity": 2048,
+                    "Max-Cluster-Size": 4
+                },
+                "AOS10": {
+                    "AP-Capacity": 256,
+                    "Client-Capacity": 2048,
+                    "Max-Cluster-Size": 4
+                }
+            },
+            "HasDedicatedManagementInterface": false,
+            "Ports": [
+                {
+                    "Amount": 6,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": true,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": 4,
+                    "Type": "BaseT",
+                    "802.3az": true,
+                    "Speed": [
+                        10,
+                        100,
+                        1000
+                    ]
+                },
+                {
+                    "Amount": 6,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "BaseT",
+                    "802.3az": true,
+                    "Speed": [
+                        10,
+                        100,
+                        1000
+                    ]
+                }
+            ],
+            "PoE": {
+                "Enabled": true,
+                "Can-Consume-PoE": false,
+                "Consume-Class": -1,
+                "Can-Deliver-PoE": true,
+                "Deliver-Class": 4
+            },
+            "Dimensions": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 395,
+                "Depth": 260,
+                "Weight": 3420
+            }
+        }
+    ]
+}

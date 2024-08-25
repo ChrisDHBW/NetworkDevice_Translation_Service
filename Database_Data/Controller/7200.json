@@ -1,0 +1,413 @@
+{
+    "Version": 7200,
+    "Details": {
+        "Type": "Campus",
+        "TPM-Modul": true,
+        "Security-Protocols": {
+            "Radius": true,
+            "Tacacs+": true
+        },
+        "Compatible-Operating-Systems": [
+            "AOS8",
+            "AOS10"
+        ]
+    },
+    "Models": [
+        {
+            "Identifier": "7205",
+            "Type": "Fixed",
+            "Number-Of-PowerSupplies": 1,
+            "Number-Of-FansTrays": 0,
+            "Usage-Classification": "Hybrid",
+            "Density-Classification": "Medium",
+            "PortAmount": 10,
+            "Has-Licence-based-Capacities": false,
+            "Scalability": {
+                "AOS8": {
+                    "AP-Capacity": 256,
+                    "Client-Capacity": 8192,
+                    "Max-Cluster-Size": 12
+                },
+                "AOS10": {
+                    "AP-Capacity": 1024,
+                    "Client-Capacity": 8192,
+                    "Max-Cluster-Size": 12
+                }
+            },
+            "HasDedicatedManagementInterface": true,
+            "Ports": [
+                {
+                    "Amount": 4,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "BaseT",
+                    "802.3az": true,
+                    "Speed": [
+                        10,
+                        100,
+                        1000
+                    ]
+                },
+                {
+                    "Amount": 4,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "SFP",
+                    "802.3az": true,
+                    "Speed": [
+                        1000
+                    ]
+                },
+                {
+                    "Amount": 2,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "SFP+",
+                    "802.3az": true,
+                    "Speed": [
+                        10000
+                    ]
+                }
+            ],
+            "PoE": {
+                "Enabled": false,
+                "Can-Consume-PoE": false,
+                "Consume-Class": -1,
+                "Can-Deliver-PoE": false,
+                "Deliver-Class": -1
+            },
+            "Dimensions": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 442,
+                "Depth": 334,
+                "Weight": 4950
+            }
+        },
+        {
+            "Identifier": "7210",
+            "Type": "Modular",
+            "Number-Of-PowerSupplies": 2,
+            "Number-Of-FansTrays": 1,
+            "Usage-Classification": "Campus",
+            "Density-Classification": "Medium",
+            "PortAmount": 8,
+            "Has-Licence-based-Capacities": false,
+            "Scalability": {
+                "AOS8": {
+                    "AP-Capacity": 512,
+                    "Client-Capacity": 16384,
+                    "Max-Cluster-Size": 12
+                },
+                "AOS10": {
+                    "AP-Capacity": 2048,
+                    "Client-Capacity": 16384,
+                    "Max-Cluster-Size": 12
+                }
+            },
+            "HasDedicatedManagementInterface": false,
+            "Ports": [
+                {
+                    "Amount": 2,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "BaseT",
+                    "802.3az": true,
+                    "Speed": [
+                        10,
+                        100,
+                        1000
+                    ]
+                },
+                {
+                    "Amount": 2,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "SFP",
+                    "802.3az": true,
+                    "Speed": [
+                        1000
+                    ]
+                },
+                {
+                    "Amount": 4,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "SFP+",
+                    "802.3az": true,
+                    "Speed": [
+                        10000
+                    ]
+                }
+            ],
+            "PoE": {
+                "Enabled": false,
+                "Can-Consume-PoE": false,
+                "Consume-Class": -1,
+                "Can-Deliver-PoE": false,
+                "Deliver-Class": -1
+            },
+            "Dimensions": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 445,
+                "Depth": 445,
+                "Weight": 7450
+            }
+        },
+        {
+            "Identifier": "7220",
+            "Type": "Modular",
+            "Number-Of-PowerSupplies": 2,
+            "Number-Of-FansTrays": 1,
+            "Usage-Classification": "Campus",
+            "Density-Classification": "High",
+            "PortAmount": 8,
+            "Has-Licence-based-Capacities": false,
+            "Scalability": {
+                "AOS8": {
+                    "AP-Capacity": 1024,
+                    "Client-Capacity": 24576,
+                    "Max-Cluster-Size": 12
+                },
+                "AOS10": {
+                    "AP-Capacity": 4096,
+                    "Client-Capacity": 24576,
+                    "Max-Cluster-Size": 12
+                }
+            },
+            "HasDedicatedManagementInterface": false,
+            "Ports": [
+                {
+                    "Amount": 2,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "BaseT",
+                    "802.3az": true,
+                    "Speed": [
+                        10,
+                        100,
+                        1000
+                    ]
+                },
+                {
+                    "Amount": 2,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "SFP",
+                    "802.3az": true,
+                    "Speed": [
+                        1000
+                    ]
+                },
+                {
+                    "Amount": 4,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "SFP+",
+                    "802.3az": true,
+                    "Speed": [
+                        10000
+                    ]
+                }
+            ],
+            "PoE": {
+                "Enabled": false,
+                "Can-Consume-PoE": false,
+                "Consume-Class": -1,
+                "Can-Deliver-PoE": false,
+                "Deliver-Class": -1
+            },
+            "Dimensions": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 445,
+                "Depth": 445,
+                "Weight": 7450
+            }
+        },
+        {
+            "Identifier": "7240",
+            "Type": "Modular",
+            "Number-Of-PowerSupplies": 2,
+            "Number-Of-FansTrays": 1,
+            "Usage-Classification": "Campus",
+            "Density-Classification": "High",
+            "PortAmount": 8,
+            "Has-Licence-based-Capacities": false,
+            "Scalability": {
+                "AOS8": {
+                    "AP-Capacity": 2048,
+                    "Client-Capacity": 32768,
+                    "Max-Cluster-Size": 12
+                },
+                "AOS10": {
+                    "AP-Capacity": 8192,
+                    "Client-Capacity": 32768,
+                    "Max-Cluster-Size": 12
+                }
+            },
+            "HasDedicatedManagementInterface": false,
+            "Ports": [
+                {
+                    "Amount": 2,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "BaseT",
+                    "802.3az": true,
+                    "Speed": [
+                        10,
+                        100,
+                        1000
+                    ]
+                },
+                {
+                    "Amount": 2,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "SFP",
+                    "802.3az": true,
+                    "Speed": [
+                        1000
+                    ]
+                },
+                {
+                    "Amount": 4,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "SFP+",
+                    "802.3az": true,
+                    "Speed": [
+                        10000
+                    ]
+                }
+            ],
+            "PoE": {
+                "Enabled": false,
+                "Can-Consume-PoE": false,
+                "Consume-Class": -1,
+                "Can-Deliver-PoE": false,
+                "Deliver-Class": -1
+            },
+            "Dimensions": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 445,
+                "Depth": 445,
+                "Weight": 7450
+            }
+        },
+        {
+            "Identifier": "7280",
+            "Type": "Modular",
+            "Number-Of-PowerSupplies": 2,
+            "Number-Of-FansTrays": 5,
+            "Usage-Classification": "Campus",
+            "Density-Classification": "High",
+            "PortAmount": 10,
+            "Has-Licence-based-Capacities": false,
+            "Scalability": {
+                "AOS8": {
+                    "AP-Capacity": 2048,
+                    "Client-Capacity": 32768,
+                    "Max-Cluster-Size": 12
+                },
+                "AOS10": {
+                    "AP-Capacity": 8192,
+                    "Client-Capacity": 32768,
+                    "Max-Cluster-Size": 12
+                }
+            },
+            "HasDedicatedManagementInterface": true,
+            "Ports": [
+                {
+                    "Amount": 8,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "SFP+",
+                    "802.3az": true,
+                    "Speed": [
+                        10000
+                    ]
+                },
+                {
+                    "Amount": 2,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "QSFP+",
+                    "802.3az": true,
+                    "Speed": [
+                        40000
+                    ]
+                }
+            ],
+            "PoE": {
+                "Enabled": false,
+                "Class": -1
+            },
+            "Dimensions": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 442,
+                "Depth": 401,
+                "Weight": 7900
+            }
+        }
+    ]
+}

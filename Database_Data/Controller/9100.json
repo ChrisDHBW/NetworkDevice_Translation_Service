@@ -1,0 +1,188 @@
+{
+    "Version": 9100,
+    "Details": {
+        "Type": "Hybrid",
+        "TPM-Modul": true,
+        "Security-Protocols": {
+            "Radius": true,
+            "Tacacs+": true
+        },
+        "Compatible-Operating-Systems": [
+            "AOS10"
+        ]
+    },
+    "Models": [
+        {
+            "Identifier": "9106",
+            "Type": "Fixed",
+            "Number-Of-PowerSupplies": 1,
+            "Number-Of-FansTrays": 0,
+            "Usage-Classification": "Hybrid",
+            "Density-Classification": "Medium",
+            "PortAmount": 12,
+            "Has-Licence-based-Capacities": false,
+            "Scalability": {
+                "AOS10": {
+                    "AP-Capacity": 2048,
+                    "Client-Capacity": 8192,
+                    "Max-Cluster-Size": 6
+                }
+            },
+            "HasDedicatedManagementInterface": true,
+            "Ports": [
+                {
+                    "Amount": 2,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "BaseT",
+                    "802.3az": true,
+                    "Speed": [
+                        10,
+                        100,
+                        1000
+                    ]
+                },
+                {
+                    "Amount": 2,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": true,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": 6,
+                    "Type": "BaseT",
+                    "802.3az": true,
+                    "Speed": [
+                        10,
+                        100,
+                        1000
+                    ]
+                },
+                {
+                    "Amount": 2,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "SFP",
+                    "802.3az": true,
+                    "Speed": [
+                        1000
+                    ]
+                },
+                {
+                    "Amount": 2,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "SFP+",
+                    "802.3az": true,
+                    "Speed": [
+                        10000
+                    ]
+                }
+            ],
+            "PoE": {
+                "Enabled": true,
+                "Can-Consume-PoE": false,
+                "Consume-Class": -1,
+                "Can-Deliver-PoE": true,
+                "Deliver-Class": 6
+            },
+            "Dimensions": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 295,
+                "Depth": 201,
+                "Weight": 2305
+            }
+        },
+        {
+            "Identifier": "9114",
+            "Type": "Modular",
+            "Number-Of-PowerSupplies": 2,
+            "Number-Of-FansTrays": 3,
+            "Usage-Classification": "Hybrid",
+            "Density-Classification": "Medium",
+            "PortAmount": 12,
+            "Has-Licence-based-Capacities": false,
+            "Scalability": {
+                "AOS10": {
+                    "AP-Capacity": 4096,
+                    "Client-Capacity": 10240,
+                    "Max-Cluster-Size": 6
+                }
+            },
+            "HasDedicatedManagementInterface": true,
+            "Ports": [
+                {
+                    "Amount": 4,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "BaseT",
+                    "802.3az": true,
+                    "Speed": [
+                        10,
+                        100,
+                        1000
+                    ]
+                },
+                {
+                    "Amount": 4,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "SFP",
+                    "802.3az": true,
+                    "Speed": [
+                        1000
+                    ]
+                },
+                {
+                    "Amount": 4,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "SFP+",
+                    "802.3az": true,
+                    "Speed": [
+                        10000
+                    ]
+                }
+            ],
+            "PoE": {
+                "Enabled": false,
+                "Can-Consume-PoE": false,
+                "Consume-Class": -1,
+                "Can-Deliver-PoE": false,
+                "Deliver-Class": -1
+            },
+            "Dimensions": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 442,
+                "Depth": 351,
+                "Weight": 6200
+            }
+        }
+    ]
+}

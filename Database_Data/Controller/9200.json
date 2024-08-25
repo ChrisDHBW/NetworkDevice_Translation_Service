@@ -1,0 +1,102 @@
+{
+    "Version": 9200,
+    "Details": {
+        "Type": "Campus",
+        "TPM-Modul": true,
+        "Security-Protocols": {
+            "Radius": true,
+            "Tacacs+": true
+        },
+        "Compatible-Operating-Systems": [
+            "AOS8",
+            "AOS10"
+        ]
+    },
+    "Models": [
+        {
+            "Identifier": "9200",
+            "Usage-Classification": "Campus",
+            "Density-Classification": "High",
+            "Type": "Modular",
+            "Number-Of-PowerSupplies": 2,
+            "Number-Of-FansTrays": 5,
+            "PortAmount": 4,
+            "Has-Licence-based-Capacities": true,
+            "Scalability": {
+                "AOS8": {
+                    "Licences": [
+                        {
+                            "Type": "Basic",
+                            "AP-Capacity": 512,
+                            "Client-Capacity": 16384
+                        },
+                        {
+                            "Type": "Silver",
+                            "AP-Capacity": 1024,
+                            "Client-Capacity": 24576
+                        },
+                        {
+                            "Type": "Gold",
+                            "AP-Capacity": 2048,
+                            "Client-Capacity": 32768
+                        }
+                    ],
+                    "Max-Cluster-Size": 4
+                },
+                "AOS10": {
+                    "Licences": [
+                        {
+                            "Type": "Basic",
+                            "AP-Capacity": 4096,
+                            "Client-Capacity": 32768
+                        },
+                        {
+                            "Type": "Silver",
+                            "AP-Capacity": 8192,
+                            "Client-Capacity": 49152
+                        },
+                        {
+                            "Type": "Gold",
+                            "AP-Capacity": 16384,
+                            "Client-Capacity": 65536
+                        }
+                    ],
+                    "Max-Cluster-Size": 6
+                }
+            },
+            "HasDedicatedManagementInterface": true,
+            "Ports": [
+                {
+                    "Amount": 4,
+                    "MAC-Sec-Capable-Port": false,
+                    "MAC-Sec-Max-Speed": 0,
+                    "Can-consume-PoE": false,
+                    "Can-provide-PoE": false,
+                    "PoE-Class": -1,
+                    "PoE-Delivery-Class": -1,
+                    "Type": "SFP28",
+                    "802.3az": true,
+                    "Speed": [
+                        1000,
+                        10000,
+                        25000
+                    ]
+                }
+            ],
+            "PoE": {
+                "Enabled": false,
+                "Can-Consume-PoE": false,
+                "Consume-Class": -1,
+                "Can-Deliver-PoE": false,
+                "Deliver-Class": -1
+            },
+            "Dimensions": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 442,
+                "Depth": 396,
+                "Weight": 8200
+            }
+        }
+    ]
+}
