@@ -1,0 +1,685 @@
+{
+    "Version": 2930,
+    "Details": {
+        "Layer": 3,
+        "Chassis": "Fixed",
+        "Managed": true,
+        "Type": "Normal",
+        "L2-Protocols": {
+            "Spanning-Tree": {
+                "STP": true,
+                "PVST": true,
+                "RSTP": true,
+                "RPVST": true,
+                "MSTP": true
+            },
+            "VLANs": true,
+            "VLAN-MAX-Count": 4094,
+            "802.1ab": {
+                "LLDP": true,
+                "LLDP-MED": true
+            },
+            "CDP": true,
+            "Jumbo-Frames": true,
+            "802.1q": true,
+            "802.3ad": true,
+            "802.3az": true,
+            "IGMP-Snooping": true,
+            "ERPS": false,
+            "PFC": false,
+            "ETS": false,
+            "DCBX": false,
+            "ECN": false
+        },
+        "L3-Protocols": {
+            "Static-Routing": {
+                "IPv4": true,
+                "IPv6": true
+            },
+            "OSPF": {
+                "V2": true,
+                "V3": true,
+                "MultiArea": false
+            },
+            "RIP": {
+                "V1": true,
+                "V2": true,
+                "NG": true
+            },
+            "IGMP": {
+                "V1": true,
+                "V2": true,
+                "V3": true
+            },
+            "BGP": {
+                "IPv4": false,
+                "IPv6": false,
+                "Multiprotocol": false
+            },
+            "QOS": {
+                "ToS": true,
+                "DSCP": true,
+                "Max-Queues": 8
+            },
+            "Loopback-Interfaces": false,
+            "VRRP": true,
+            "ECMP": true,
+            "VRF": false,
+            "BFD": true,
+            "PBR": true,
+            "ARP": true,
+            "ICMP": true,
+            "mDNS": true,
+            "RouteMaps": true
+        },
+        "L4-Protocols": {
+            "TCP": true,
+            "UDP": true,
+            "VXLAN": false,
+            "EVPN": false
+        },
+        "Stacking": {
+            "VSF": false,
+            "VSF-Max": -1,
+            "VSX": false,
+            "VSX-Max": -1,
+            "Backplane": true,
+            "Backplane-Max": 10
+        },
+        "L7-Protocols": {
+            "DHCP": true,
+            "DHCP-Relay": true,
+            "DHCP-Server": true,
+            "DNS": true,
+            "TFTP": true,
+            "SFTP": false,
+            "NTP": false
+        },
+        "Security": {
+            "Radius": true,
+            "TACACS": false,
+            "TACACS+": true,
+            "802.1x-Auth": true,
+            "802.1x-Supplicant": true,
+            "MAC-Auth": true,
+            "ACLs": {
+                "MAC": true,
+                "IPv4": true,
+                "IPv6": true
+            },
+            "Captive-Portals": true,
+            "Spanning-Tree": {
+                "Root-Guard": true,
+                "BPDU-Guard": true
+            },
+            "ARP-Inspection": true
+        },
+        "Vendor-Specific-Features": {
+            "UBT": true,
+            "Downloadable-User-Roles": true,
+            "Loop-Protect": false
+        },
+        "Management": {
+            "Simple-Network-Management-Protocol": {
+                "V1": true,
+                "V2": true,
+                "V3": true
+            },
+            "SSH": true,
+            "Web-Interface": true,
+            "Rest-API": true,
+            "Compatible-MGMT-Tools": [
+                "Aruba-Central",
+                "HPE-IMC",
+                "Aruba-Airwave"
+            ]
+        },
+        "Compatible-Operating-Systems": [
+            "AOS-S"
+        ]
+    },
+    "Models": [
+        {
+            "Identifier": "JL319A",
+            "Type": "Modular",
+            "Airflow": "F2B",
+            "PortAmount": 28,
+            "ModulsAmount": 1,
+            "Number-Of-PowerSupplies": 2,
+            "Number-Of-FansTrays": 3,
+            "Stacking-Type": "Backplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 443,
+                "Depth": 352
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 24,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP",
+                        "Speed": [
+                            1000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": false,
+                "Class": -1,
+                "Max-Budget": 0
+            }
+        },
+        {
+            "Identifier": "JL320A",
+            "Type": "Modular",
+            "Airflow": "F2B",
+            "PortAmount": 28,
+            "ModulsAmount": 1,
+            "Number-Of-PowerSupplies": 2,
+            "Number-Of-FansTrays": 3,
+            "Stacking-Type": "Backplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 443,
+                "Depth": 352
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 24,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 4,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP",
+                        "Speed": [
+                            1000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Class": 4,
+                "Max-Budget": 840
+            }
+        },
+        {
+            "Identifier": "JL321A",
+            "Type": "Modular",
+            "Airflow": "F2B",
+            "PortAmount": 52,
+            "ModulsAmount": 1,
+            "Number-Of-PowerSupplies": 2,
+            "Number-Of-FansTrays": 3,
+            "Stacking-Type": "Backplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 443,
+                "Depth": 352
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 48,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP",
+                        "Speed": [
+                            1000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": false,
+                "Class": -1,
+                "Max-Budget": 0
+            }
+        },
+        {
+            "Identifier": "JL322A",
+            "Type": "Modular",
+            "Airflow": "F2B",
+            "PortAmount": 52,
+            "ModulsAmount": 1,
+            "Number-Of-PowerSupplies": 2,
+            "Number-Of-FansTrays": 3,
+            "Stacking-Type": "Backplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 443,
+                "Depth": 352
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 48,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 4,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP",
+                        "Speed": [
+                            1000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Class": 4,
+                "Max-Budget": 1440
+            }
+        },
+        {
+            "Identifier": "JL323A",
+            "Type": "Modular",
+            "Airflow": "F2B",
+            "PortAmount": 52,
+            "ModulsAmount": 1,
+            "Number-Of-PowerSupplies": 2,
+            "Number-Of-FansTrays": 3,
+            "Stacking-Type": "Backplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 443,
+                "Depth": 352
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 8,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 4,
+                        "Type": "BaseT",
+                        "Speed": [
+                            100,
+                            1000,
+                            2500,
+                            5000,
+                            10000
+                        ]
+                    },
+                    {
+                        "Amount": 40,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 4,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP",
+                        "Speed": [
+                            1000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Class": 4,
+                "Max-Budget": 1440
+            }
+        },
+        {
+            "Identifier": "JL324A",
+            "Type": "Modular",
+            "Airflow": "F2B",
+            "PortAmount": 24,
+            "ModulsAmount": 1,
+            "Number-Of-PowerSupplies": 2,
+            "Number-Of-FansTrays": 3,
+            "Stacking-Type": "Backplane",
+            "HasSpecialUplinkPorts": false,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 443,
+                "Depth": 352
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 24,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 4,
+                        "Type": "BaseT",
+                        "Speed": [
+                            100,
+                            1000,
+                            2500,
+                            5000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Class": 4,
+                "Max-Budget": 860
+            }
+        },
+        {
+            "Identifier": "R0M67A",
+            "Type": "Modular",
+            "Airflow": "F2B",
+            "PortAmount": 52,
+            "ModulsAmount": 1,
+            "Number-Of-PowerSupplies": 2,
+            "Number-Of-FansTrays": 3,
+            "Stacking-Type": "Backplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 443,
+                "Depth": 352
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 8,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 6,
+                        "Type": "BaseT",
+                        "Speed": [
+                            100,
+                            1000,
+                            2500,
+                            5000,
+                            10000
+                        ]
+                    },
+                    {
+                        "Amount": 40,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 6,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP",
+                        "Speed": [
+                            1000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Class": 6,
+                "Max-Budget": 1440
+            }
+        },
+        {
+            "Identifier": "R0M68A",
+            "Type": "Modular",
+            "Airflow": "F2B",
+            "PortAmount": 24,
+            "ModulsAmount": 1,
+            "Number-Of-PowerSupplies": 2,
+            "Number-Of-FansTrays": 3,
+            "Stacking-Type": "Backplane",
+            "HasSpecialUplinkPorts": false,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 443,
+                "Depth": 352
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 24,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 6,
+                        "Type": "BaseT",
+                        "Speed": [
+                            100,
+                            1000,
+                            2500,
+                            5000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Class": 6,
+                "Max-Budget": 1440
+            }
+        }
+    ],
+    "Moduls": [
+        {
+            "Identifier": "JL078A",
+            "Type": "Core/Agg",
+            "PortAmount": 1,
+            "HasSpecialUplinkPorts": false,
+            "MAC-Sec-Interfaces": false,
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 1,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "QSFP+",
+                        "Speed": [
+                            40000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": false,
+                "Class": -1,
+                "Max-Budget": 0
+            }
+        },
+        {
+            "Identifier": "JL083A",
+            "Type": "Core/Agg",
+            "PortAmount": 4,
+            "HasSpecialUplinkPorts": false,
+            "MAC-Sec-Interfaces": true,
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": true,
+                        "MAC-Sec-Capable-Ports-Amount": 4,
+                        "MAC-Sec-Max-Speed": 10000,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP+",
+                        "Speed": [
+                            10000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": false,
+                "Class": -1,
+                "Max-Budget": 0
+            }
+        },
+        {
+            "Identifier": "JL081A",
+            "Type": "Access",
+            "PortAmount": 4,
+            "HasSpecialUplinkPorts": false,
+            "MAC-Sec-Interfaces": false,
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 4,
+                        "Type": "BaseT",
+                        "Speed": [
+                            1000,
+                            2500,
+                            5000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Class": 4,
+                "Max-Budget": 370
+            }
+        }
+    ]
+}

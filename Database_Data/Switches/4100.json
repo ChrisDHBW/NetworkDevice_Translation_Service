@@ -1,0 +1,1363 @@
+{
+    "Version": 6200,
+    "Details": {
+        "Layer": 2,
+        "Chassis": "Fixed",
+        "Type": "Ruggedized",
+        "Managed": true,
+        "L2-Protocols": {
+            "Spanning-Tree": {
+                "STP": true,
+                "PVST": true,
+                "RSTP": true,
+                "RPVST": true,
+                "MSTP": true
+            },
+            "VLANs": true,
+            "VLAN-MAX-Count": 512,
+            "802.1ab": {
+                "LLDP": true,
+                "LLDP-MED": true
+            },
+            "CDP": true,
+            "Jumbo-Frames": true,
+            "802.1q": true,
+            "802.3ad": true,
+            "802.3az": true,
+            "IGMP-Snooping": true,
+            "ERPS": false,
+            "PFC": false,
+            "ETS": false,
+            "DCBX": false,
+            "ECN": false
+        },
+        "L3-Protocols": {
+            "Static-Routing": {
+                "IPv4": true,
+                "IPv6": true
+            },
+            "OSPF": {
+                "V2": false,
+                "V3": false,
+                "MultiArea": false
+            },
+            "RIP": {
+                "V1": false,
+                "V2": false,
+                "NG": false
+            },
+            "IGMP": {
+                "V1": true,
+                "V2": true,
+                "V3": true
+            },
+            "BGP": {
+                "IPv4": false,
+                "IPv6": false,
+                "Multiprotocol": false
+            },
+            "QOS": {
+                "ToS": true,
+                "DSCP": true,
+                "Max-Queues": 8
+            },
+            "Loopback-Interfaces": false,
+            "VRRP": false,
+            "ECMP": false,
+            "VRF": false,
+            "BFD": false,
+            "PBR": false,
+            "ARP": true,
+            "ICMP": true,
+            "mDNS": true,
+            "RouteMaps": false
+        },
+        "L4-Protocols": {
+            "TCP": true,
+            "UDP": true,
+            "VXLAN": true,
+            "EVPN": false
+        },
+        "Stacking": {
+            "VSF": false,
+            "VSF-Max": -1,
+            "VSX": false,
+            "VSX-Max": -1,
+            "Backplane": false,
+            "Backplane-Max": -1
+        },
+        "L7-Protocols": {
+            "DHCP": true,
+            "DHCP-Relay": false,
+            "DHCP-Server": false,
+            "DNS": true,
+            "TFTP": true,
+            "SFTP": true,
+            "NTP": true
+        },
+        "Security": {
+            "Radius": true,
+            "TACACS": false,
+            "TACACS+": true,
+            "802.1x-Auth": true,
+            "802.1x-Supplicant": true,
+            "MAC-Auth": true,
+            "ACLs": {
+                "MAC": true,
+                "IPv4": true,
+                "IPv6": true
+            },
+            "Captive-Portals": true,
+            "Spanning-Tree": {
+                "Root-Guard": true,
+                "BPDU-Guard": true
+            },
+            "ARP-Inspection": true
+        },
+        "Vendor-Specific-Features": {
+            "UBT": true,
+            "Downloadable-User-Roles": true,
+            "Loop-Protect": true
+        },
+        "Management": {
+            "Simple-Network-Management-Protocol": {
+                "V1": true,
+                "V2": true,
+                "V3": true
+            },
+            "SSH": true,
+            "Web-Interface": true,
+            "Rest-API": true,
+            "Compatible-MGMT-Tools": [
+                "Aruba-Central",
+                "HPE-IMC",
+                "Aruba-NetEdit",
+                "Aruba-Airwave"
+            ]
+        },
+        "Compatible-Operating-Systems": [
+            "AOS-CX"
+        ]
+    },
+    "Models": [
+        {
+            "Identifier": "S0M81A",
+            "Type": "Fixed",
+            "Airflow": "F2B",
+            "PortAmount": 28,
+            "ModulsAmount": 0,
+            "Number-Of-PowerSupplies": 1,
+            "Number-Of-FansTrays": 1,
+            "Stacking-Type": "Frontplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 442,
+                "Depth": 385
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 24,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP",
+                        "Speed": [
+                            1000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": false,
+                "Class": -1,
+                "Max-Budget": 0
+            }
+        },
+        {
+            "Identifier": "S0M83A",
+            "Type": "Fixed",
+            "Airflow": "F2B",
+            "PortAmount": 52,
+            "ModulsAmount": 0,
+            "Number-Of-PowerSupplies": 1,
+            "Number-Of-FansTrays": 1,
+            "Stacking-Type": "Frontplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 442,
+                "Depth": 385
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 48,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP",
+                        "Speed": [
+                            1000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": false,
+                "Class": -1,
+                "Max-Budget": 0
+            }
+        },
+        {
+            "Identifier": "S0M82A",
+            "Type": "Fixed",
+            "Airflow": "F2B",
+            "PortAmount": 28,
+            "ModulsAmount": 0,
+            "Number-Of-PowerSupplies": 1,
+            "Number-Of-FansTrays": 1,
+            "Stacking-Type": "Frontplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 442,
+                "Depth": 385
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 24,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 4,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP",
+                        "Speed": [
+                            1000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Class": 4,
+                "Max-Budget": 370
+            }
+        },
+        {
+            "Identifier": "S0M84A",
+            "Type": "Fixed",
+            "Airflow": "F2B",
+            "PortAmount": 52,
+            "ModulsAmount": 0,
+            "Number-Of-PowerSupplies": 1,
+            "Number-Of-FansTrays": 1,
+            "Stacking-Type": "Frontplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 442,
+                "Depth": 385
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 48,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 4,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP",
+                        "Speed": [
+                            1000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Class": 4,
+                "Max-Budget": 370
+            }
+        },
+        {
+            "Identifier": "S0M81A",
+            "Type": "Fixed",
+            "Airflow": "F2B",
+            "PortAmount": 52,
+            "ModulsAmount": 0,
+            "Number-Of-PowerSupplies": 1,
+            "Number-Of-FansTrays": 1,
+            "Stacking-Type": "Frontplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 442,
+                "Depth": 385
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 48,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 4,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP",
+                        "Speed": [
+                            1000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Class": 4,
+                "Max-Budget": 740
+            }
+        },
+        {
+            "Identifier": "R8Q72A",
+            "Type": "Fixed",
+            "Airflow": "F2B",
+            "PortAmount": 16,
+            "ModulsAmount": 0,
+            "Number-Of-PowerSupplies": 1,
+            "Number-Of-FansTrays": 0,
+            "Stacking-Type": "Frontplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 254,
+                "Depth": 305
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 12,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 4,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    },
+                    {
+                        "Amount": 2,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "BaseT",
+                        "Speed": [
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 2,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP+",
+                        "Speed": [
+                            1000,
+                            10000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Class": 4,
+                "Max-Budget": 139
+            }
+        },
+        {
+            "Identifier": "JL724A",
+            "Type": "Fixed",
+            "Airflow": "F2B",
+            "PortAmount": 28,
+            "ModulsAmount": 0,
+            "Number-Of-PowerSupplies": 1,
+            "Number-Of-FansTrays": 1,
+            "Stacking-Type": "Frontplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 443,
+                "Depth": 285
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 24,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP+",
+                        "Speed": [
+                            1000,
+                            10000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": false,
+                "Class": -1,
+                "Max-Budget": 0
+            }
+        },
+        {
+            "Identifier": "JL724B",
+            "Type": "Fixed",
+            "Airflow": "F2B",
+            "PortAmount": 28,
+            "ModulsAmount": 0,
+            "Number-Of-PowerSupplies": 1,
+            "Number-Of-FansTrays": 1,
+            "Stacking-Type": "Frontplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 442,
+                "Depth": 327
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 24,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP+",
+                        "Speed": [
+                            1000,
+                            10000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": false,
+                "Class": -1,
+                "Max-Budget": 0
+            }
+        },
+        {
+            "Identifier": "JL726A",
+            "Type": "Fixed",
+            "Airflow": "F2B",
+            "PortAmount": 52,
+            "ModulsAmount": 0,
+            "Number-Of-PowerSupplies": 1,
+            "Number-Of-FansTrays": 1,
+            "Stacking-Type": "Frontplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 442,
+                "Depth": 327
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 48,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP+",
+                        "Speed": [
+                            1000,
+                            10000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": false,
+                "Class": -1,
+                "Max-Budget": 0
+            }
+        },
+        {
+            "Identifier": "JL726B",
+            "Type": "Fixed",
+            "Airflow": "F2B",
+            "PortAmount": 52,
+            "ModulsAmount": 0,
+            "Number-Of-PowerSupplies": 1,
+            "Number-Of-FansTrays": 1,
+            "Stacking-Type": "Frontplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 443,
+                "Depth": 285
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 48,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP+",
+                        "Speed": [
+                            1000,
+                            10000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": false,
+                "Class": -1,
+                "Max-Budget": 0
+            }
+        },
+        {
+            "Identifier": "JL725A",
+            "Type": "Fixed",
+            "Airflow": "F2B",
+            "PortAmount": 28,
+            "ModulsAmount": 0,
+            "Number-Of-PowerSupplies": 1,
+            "Number-Of-FansTrays": 1,
+            "Stacking-Type": "Frontplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 442,
+                "Depth": 327
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 24,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 4,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP+",
+                        "Speed": [
+                            1000,
+                            10000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Class": 4,
+                "Max-Budget": 370
+            }
+        },
+        {
+            "Identifier": "JL725B",
+            "Type": "Fixed",
+            "Airflow": "F2B",
+            "PortAmount": 28,
+            "ModulsAmount": 0,
+            "Number-Of-PowerSupplies": 1,
+            "Number-Of-FansTrays": 1,
+            "Stacking-Type": "Frontplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 443,
+                "Depth": 304
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 24,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 4,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP+",
+                        "Speed": [
+                            1000,
+                            10000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Class": 4,
+                "Max-Budget": 370
+            }
+        },
+        {
+            "Identifier": "JL727A",
+            "Type": "Fixed",
+            "Airflow": "F2B",
+            "PortAmount": 52,
+            "ModulsAmount": 0,
+            "Number-Of-PowerSupplies": 1,
+            "Number-Of-FansTrays": 1,
+            "Stacking-Type": "Frontplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 442,
+                "Depth": 327
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 48,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 4,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP+",
+                        "Speed": [
+                            1000,
+                            10000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Class": 4,
+                "Max-Budget": 370
+            }
+        },
+        {
+            "Identifier": "JL727B",
+            "Type": "Fixed",
+            "Airflow": "F2B",
+            "PortAmount": 52,
+            "ModulsAmount": 0,
+            "Number-Of-PowerSupplies": 1,
+            "Number-Of-FansTrays": 1,
+            "Stacking-Type": "Frontplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 443,
+                "Depth": 304
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 48,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 4,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP+",
+                        "Speed": [
+                            1000,
+                            10000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Class": 4,
+                "Max-Budget": 370
+            }
+        },
+        {
+            "Identifier": "JL728A",
+            "Type": "Fixed",
+            "Airflow": "F2B",
+            "PortAmount": 52,
+            "ModulsAmount": 0,
+            "Number-Of-PowerSupplies": 1,
+            "Number-Of-FansTrays": 1,
+            "Stacking-Type": "Frontplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 442,
+                "Depth": 327
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 48,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 4,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP+",
+                        "Speed": [
+                            1000,
+                            10000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Class": 4,
+                "Max-Budget": 740
+            }
+        },
+        {
+            "Identifier": "JL728B",
+            "Type": "Fixed",
+            "Airflow": "F2B",
+            "PortAmount": 52,
+            "ModulsAmount": 0,
+            "Number-Of-PowerSupplies": 1,
+            "Number-Of-FansTrays": 1,
+            "Stacking-Type": "Frontplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": false,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 443,
+                "Depth": 327
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 48,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 4,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP+",
+                        "Speed": [
+                            1000,
+                            10000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Class": 4,
+                "Max-Budget": 740
+            }
+        },
+        {
+            "Identifier": "R8Q67A",
+            "Type": "Modular",
+            "Airflow": "F2B",
+            "PortAmount": 28,
+            "ModulsAmount": 0,
+            "Number-Of-PowerSupplies": 2,
+            "Number-Of-FansTrays": 2,
+            "Stacking-Type": "Frontplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": true,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 442,
+                "Depth": 385
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 24,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": true,
+                        "MAC-Sec-Capable-Ports-Amount": 2,
+                        "MAC-Sec-Max-Speed": 10000,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP+",
+                        "Speed": [
+                            1000,
+                            10000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": false,
+                "Class": -1,
+                "Max-Budget": 0
+            }
+        },
+        {
+            "Identifier": "R8Q69A",
+            "Type": "Modular",
+            "Airflow": "F2B",
+            "PortAmount": 52,
+            "ModulsAmount": 0,
+            "Number-Of-PowerSupplies": 2,
+            "Number-Of-FansTrays": 2,
+            "Stacking-Type": "Frontplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": true,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 442,
+                "Depth": 385
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 48,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": true,
+                        "MAC-Sec-Capable-Ports-Amount": 2,
+                        "MAC-Sec-Max-Speed": 10000,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP+",
+                        "Speed": [
+                            1000,
+                            10000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": false,
+                "Class": -1,
+                "Max-Budget": 0
+            }
+        },
+        {
+            "Identifier": "R8Q68A",
+            "Type": "Modular",
+            "Airflow": "F2B",
+            "PortAmount": 28,
+            "ModulsAmount": 0,
+            "Number-Of-PowerSupplies": 2,
+            "Number-Of-FansTrays": 2,
+            "Stacking-Type": "Frontplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": true,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 442,
+                "Depth": 385
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 24,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 4,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": true,
+                        "MAC-Sec-Capable-Ports-Amount": 2,
+                        "MAC-Sec-Max-Speed": 10000,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP+",
+                        "Speed": [
+                            1000,
+                            10000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Class": 4,
+                "Max-Budget": 740
+            }
+        },
+        {
+            "Identifier": "R8Q70A",
+            "Type": "Modular",
+            "Airflow": "F2B",
+            "PortAmount": 52,
+            "ModulsAmount": 0,
+            "Number-Of-PowerSupplies": 2,
+            "Number-Of-FansTrays": 2,
+            "Stacking-Type": "Frontplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": true,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 442,
+                "Depth": 385
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 48,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 4,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": true,
+                        "MAC-Sec-Capable-Ports-Amount": 2,
+                        "MAC-Sec-Max-Speed": 10000,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP+",
+                        "Speed": [
+                            1000,
+                            10000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Class": 4,
+                "Max-Budget": 1440
+            }
+        },
+        {
+            "Identifier": "R8Q71A",
+            "Type": "Modular",
+            "Airflow": "F2B",
+            "PortAmount": 52,
+            "ModulsAmount": 0,
+            "Number-Of-PowerSupplies": 2,
+            "Number-Of-FansTrays": 2,
+            "Stacking-Type": "Frontplane",
+            "HasSpecialUplinkPorts": true,
+            "HasDedicatedManagementInterface": true,
+            "MAC-Sec-Interfaces": true,
+            "Measurements": {
+                "Height-In-RackUnit:": 1,
+                "Height": 44,
+                "Width": 442,
+                "Depth": 385
+            },
+            "Ports": {
+                "Normal": [
+                    {
+                        "Amount": 36,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 6,
+                        "Type": "BaseT",
+                        "Speed": [
+                            10,
+                            100,
+                            1000
+                        ]
+                    },
+                    {
+                        "Amount": 12,
+                        "MAC-Sec-Capable-Ports": false,
+                        "MAC-Sec-Capable-Ports-Amount": 0,
+                        "MAC-Sec-Max-Speed": 0,
+                        "PoE-Capeable": true,
+                        "PoE-Class": 6,
+                        "Type": "BaseT",
+                        "Speed": [
+                            100,
+                            1000,
+                            2500,
+                            5000
+                        ]
+                    }
+                ],
+                "Uplink": [
+                    {
+                        "Amount": 4,
+                        "MAC-Sec-Capable-Ports": true,
+                        "MAC-Sec-Capable-Ports-Amount": 2,
+                        "MAC-Sec-Max-Speed": 10000,
+                        "PoE-Capeable": false,
+                        "PoE-Class": -1,
+                        "Type": "SFP+",
+                        "Speed": [
+                            1000,
+                            10000
+                        ]
+                    }
+                ]
+            },
+            "PoE": {
+                "Enabled": true,
+                "Class": 6,
+                "Max-Budget": 1440
+            }
+        }
+    ]
+}
